@@ -183,9 +183,9 @@ subheading: "HI"
 # paginate: 5
 
 # Disqus comments
-comments: true
+
 disqus:
-  shortname: jun-kookmin
+  shortname: jun-kookmin-4
 
 # Gitment comments
 # gitment:
