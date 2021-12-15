@@ -184,7 +184,7 @@ subheading: "HI"
 
 # Disqus comments
 disqus:
-shortname: "jun-kookmin"
+  shortname: jun-kookmin
 
 # Gitment comments
 # gitment:
