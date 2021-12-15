@@ -183,6 +183,7 @@ subheading: "HI"
 # paginate: 5
 
 # Disqus comments
+comments: true
 disqus:
   shortname: jun-kookmin
 
@@ -206,8 +207,5 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-spaceship
-comment:
-  provider:     "disqus"
-  disqus:
-    shortname: "jun-kookmin"
+
         
