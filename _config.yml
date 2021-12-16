@@ -158,7 +158,7 @@ google_analytics: G-TSZSK79FYB
 #home:
 heading: "Eureka project"
 subheading: "20213004 Bae Kyeong Jun"
-  #  banner: "Your image url"
+banner: "kookminwinter.gif"
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also
