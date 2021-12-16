@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Markdown에 관하여"
-date:   2021-12-16 18:41:30 +0900
+date:   2021-12-16 20:41:30 +0900
 categories: markdown
 tags: [blog, markdown]
 ---
@@ -23,7 +23,7 @@ tags: [blog, markdown]
 
 - 이미지: `![텍스트](이미지주소)` ex) ![googleanalytics](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/The_emblem_of_Kookmin_University.svg/1200px-The_emblem_of_Kookmin_University.svg.png)
 
-- 코드블럭: ` `, 엔터로 줄 띄워 들여쓰기 ex) `codeblock`
+- 코드블럭: ``, 엔터로 줄 띄워 들여쓰기 ex) `codeblock`
 
 
         import turtle as t
