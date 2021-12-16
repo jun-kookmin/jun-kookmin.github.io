@@ -2,10 +2,10 @@
 layout: post
 title:  "댓글 구현은 포스트 내부에 있습니다"
 date:   2021-12-15 21:41:30 +0900
-categories: Eureka
+categories: Notice
 ---
 
 
-## 안녕
+## 댓글 구현은 포스트 내부에 있습니다
 
- - 안녕
+ - 댓글 구현은 포스트 내부에 있습니다

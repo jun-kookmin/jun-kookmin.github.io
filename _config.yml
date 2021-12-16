@@ -66,7 +66,7 @@ yat:
 # content_width: "920px"
 
 # Google analytics
-google_analytics: G-TB0QGYKNPE
+google_analytics: G-TSZSK79FYB
 
 # If you want to generate website sitemap, you can set true
 # sitemap: false
@@ -156,8 +156,8 @@ google_analytics: G-TB0QGYKNPE
 # Page default value
 # defaults:
 #home:
-heading: "HI~"
-subheading: "HI"
+heading: "Eureka project"
+subheading: "20213004 Bae Kyeong Jun"
   #  banner: "Your image url"
 
 # Banner default settings
