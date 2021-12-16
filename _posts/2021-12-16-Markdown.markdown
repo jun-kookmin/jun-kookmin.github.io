@@ -1,0 +1,46 @@
+---
+layout: post
+title:  "Markdown에 관하여"
+date:   2021-12-16 18:41:30 +0900
+categories: markdown
+tags: [blog, markdown]
+---
+
+## Markdown
+
+- 쉽게 말해 글쓰기 도구, 글자를 html로 변환 시켜주는 것을 말한다.
+
+- Markdown으로 씌여진 글은 가독성을 높여 쓰기 편하며, 크기, 강조, 표, 블럭 등의 여러 기능을 제공한다.
+
+
+### 대표적 기능
+
+- 제목: # ex)
+### 예시1
+#### 예시2
+
+- 링크: `[텍스트](주소)` ex) Github 주소 :[Github](https://github.com/jun-kookmin/jun-kookmin.github.io)
+
+- 이미지: `![텍스트](이미지주소)` ex) ![googleanalytics](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/The_emblem_of_Kookmin_University.svg/1200px-The_emblem_of_Kookmin_University.svg.png)
+
+- 코드블럭: ` `, 엔터로 줄 띄워 들여쓰기 ex) `codeblock`
+
+
+        import turtle as t
+        import math as m
+        t.color("red")
+        t.begin_fill()
+        for x in range(100):
+            h = m.pi*x/50
+            x = 160*m.sin(h)**3
+            y = 130*m.cos(h) - 50*m.cos(2*h) - 20*m(cos3*h) - 10*m.cos(4*h)
+            t.goto(x,y)
+        t.end_fill()
+
+        t.mainloop()
+
+        출처: https://blog.naver.com/PostView.nhn?isHttpsRedirect=true&blogId=khudd&logNo=221032458348
+
+
+- 줄바꿈 : `<br>` ex) `<br>제<br>블로그에<br>와주셔서<br>감사합니다.`
+<br>제<br>블로그에<br>와주셔서<br>감사합니다.
