@@ -56,22 +56,22 @@ a:visited {
     border: 2px solid black;
     cursor: pointer;
     user-select: none;
-    width: 200px;  /* 타일의 크기 */
-    height: 200px; /* 타일의 크기 */
+    width: 200px; 
+    height: 200px;
     text-align: center;
 }
 
 .introduce {
-    z-index: -1;  /* 타일 뒤로 보내기 */
+    z-index: -1; 
     display: flex;
-    position: absolute; /* 타일 내부에 정확히 위치시키기 */
+    position: absolute; 
     padding: 8px;
     justify-content: center;
     align-items: center;
     font-size: 18px;
     user-select: none;
     font-family: 'Ownglyph_corncorn-Rg';
-    box-sizing: border-box;  /* padding을 포함한 크기 계산 */
+    box-sizing: border-box;
 }
 img{
     border:40px;
