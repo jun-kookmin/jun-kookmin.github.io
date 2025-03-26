@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    display: grid;
+    padding: 10px;
+}
+@font-face {
+    font-family: 'Ownglyph_corncorn-Rg';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2412-1@1.0/Ownglyph_corncorn-Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+}
+.nav_logo{
+    display: flex;
+    list-style: none;
+}
+li {
+    font-size: 24px;
+    padding: 8px 12px;
+}
+i{
+    font-size: 24px;
+}
+a {
+    text-decoration: none;
+
+}
+a:visited {
+    color: inherit;
+}
+
+.puzzle-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 200px);
+    gap: 5px;
+    width: max-content;
+    margin: 30px auto;
+    padding: 5px;
+}
+
+.tile {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: white;
+    color: rgb(155, 204, 155);
+    border: 2px solid black;
+    cursor: pointer;
+    user-select: none;
+    width: 200px;  /* 타일의 크기 */
+    height: 200px; /* 타일의 크기 */
+    text-align: center;
+}
+
+.introduce {
+    z-index: -1;  /* 타일 뒤로 보내기 */
+    display: flex;
+    position: absolute; /* 타일 내부에 정확히 위치시키기 */
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    user-select: none;
+    font-family: 'Ownglyph_corncorn-Rg';
+    box-sizing: border-box;  /* padding을 포함한 크기 계산 */
+}
+img{
+    border:40px;
+}
+p{
+    color: rgba(0, 0, 0, 0);
+}
